@@ -1,0 +1,1 @@
+New-AzResourceGroupDeployment -Name "avdManualdeploy" -ResourceGroupName "lbue-rg-avd" -TemplateParameterFile .\AddSessionHostTemplate.parameters.json -TemplateFile .\AddSessionHostTemplate.json
